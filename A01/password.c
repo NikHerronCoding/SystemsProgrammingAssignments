@@ -30,7 +30,7 @@ int main() {
     }
 
     printf("Your bad password is: %s \n", output);
-
+    free(output);
     exit(0);
 }
 
